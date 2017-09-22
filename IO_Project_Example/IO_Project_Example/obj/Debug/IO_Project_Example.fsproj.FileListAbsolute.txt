@@ -1,0 +1,10 @@
+C:\Users\Tj\source\repos\IO_Project_Example\IO_Project_Example\bin\Debug\IO_Project_Example.exe.config
+C:\Users\Tj\source\repos\IO_Project_Example\IO_Project_Example\bin\Debug\IO_Project_Example.XML
+C:\Users\Tj\source\repos\IO_Project_Example\IO_Project_Example\bin\Debug\IO_Project_Example.exe
+C:\Users\Tj\source\repos\IO_Project_Example\IO_Project_Example\bin\Debug\IO_Project_Example.pdb
+C:\Users\Tj\source\repos\IO_Project_Example\IO_Project_Example\bin\Debug\FSharp.Core.dll
+C:\Users\Tj\source\repos\IO_Project_Example\IO_Project_Example\bin\Debug\System.ValueTuple.dll
+C:\Users\Tj\source\repos\IO_Project_Example\IO_Project_Example\bin\Debug\FSharp.Core.xml
+C:\Users\Tj\source\repos\IO_Project_Example\IO_Project_Example\obj\Debug\IO_Project_Example.fsproj.CoreCompileInputs.cache
+C:\Users\Tj\source\repos\IO_Project_Example\IO_Project_Example\obj\Debug\IO_Project_Example.exe
+C:\Users\Tj\source\repos\IO_Project_Example\IO_Project_Example\obj\Debug\IO_Project_Example.pdb
