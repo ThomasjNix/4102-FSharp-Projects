@@ -1,3 +1,5 @@
+﻿open System
+
 module DataStructures = 
     // Using let to declare a variable makes the variable unchangeable unless followed by "mutable"
     let mutable numberOne = 3
@@ -47,8 +49,15 @@ module DataStructures =
     printfn "Array Contents: %A" (evenNum |> Array.take 5)
     printfn "Record Contents: %s" (showCard testContact)
 
+let keepConsoleOpen() = 
+  printfn "\nPress any key to exit"
+  Console.ReadKey() |> ignore
+
+// Hold console open to view output
+keepConsoleOpen()
+
 let main argv = 
+    
     printfn "%A" argv
 
     0 // return an integer exit code
-
