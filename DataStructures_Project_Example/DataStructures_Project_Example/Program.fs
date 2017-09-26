@@ -48,6 +48,9 @@ module DataStructures =
     printfn "Factorial of 5: %d" (factorial 5)
     printfn "Array Contents: %A" (evenNum |> Array.take 5)
     printfn "Record Contents: %s" (showCard testContact)
+    printfn "Initialized Stack with list of floats: %A" testStack
+    printfn "Initiliazed Empty Stack: %A" emptyStack
+    printfn "Pushed Float to Empty Stack: %A" push1 
 
 let keepConsoleOpen() = 
   printfn "\nPress any key to exit"

@@ -1,0 +1,13 @@
+﻿<Properties StartupConfiguration="{73538C94-5EF4-4B21-ABCB-8D085EF81442}|Default">
+  <MonoDevelop.Ide.Workbench ActiveDocument="DataStructures_Project_Example/Program.fs">
+    <Files>
+      <File FileName="DataStructures_Project_Example/Program.fs" Line="51" Column="17" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MultiItemStartupConfigurations />
+</Properties>
