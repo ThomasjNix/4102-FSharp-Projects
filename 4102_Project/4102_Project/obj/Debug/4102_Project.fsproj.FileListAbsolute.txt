@@ -1,0 +1,10 @@
+c:\users\tj\source\repos\4102_Project\4102_Project\bin\Debug\_4102_Project.exe.config
+c:\users\tj\source\repos\4102_Project\4102_Project\bin\Debug\_4102_Project.XML
+c:\users\tj\source\repos\4102_Project\4102_Project\bin\Debug\_4102_Project.exe
+c:\users\tj\source\repos\4102_Project\4102_Project\bin\Debug\_4102_Project.pdb
+c:\users\tj\source\repos\4102_Project\4102_Project\bin\Debug\FSharp.Core.dll
+c:\users\tj\source\repos\4102_Project\4102_Project\bin\Debug\System.ValueTuple.dll
+c:\users\tj\source\repos\4102_Project\4102_Project\bin\Debug\FSharp.Core.xml
+c:\users\tj\source\repos\4102_Project\4102_Project\obj\Debug\4102_Project.fsproj.CoreCompileInputs.cache
+c:\users\tj\source\repos\4102_Project\4102_Project\obj\Debug\_4102_Project.exe
+c:\users\tj\source\repos\4102_Project\4102_Project\obj\Debug\_4102_Project.pdb
