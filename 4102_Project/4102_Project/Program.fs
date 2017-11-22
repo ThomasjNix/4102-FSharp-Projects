@@ -14,7 +14,6 @@ let HELP = "help"
 let INFO = "info"
 let PRINT = "print"
 let LOAD = "load"
-let QUICK = "quicksort"
 let INSERT = "insertionsort"
 let BUBBLE = "bubblesort"
 let SELECT = "selectionsort"
@@ -45,7 +44,6 @@ let printHelp() =
     Console.WriteLine("save -f fname\n\tsave the current data to the following file")
     Console.WriteLine("save -f\n\tsave the current data to the curent file")
     Console.WriteLine("save -f fname\n\tsave the current data to the given file")
-    Console.WriteLine("quicksort \n\tPerform Quick Sort on the stored data")
     Console.WriteLine("insertionsort \n\tPerform Insertion Sort on the stored data")
     Console.WriteLine("bubblesort \n\tPerform Bubble Sort on the stored data")
     Console.WriteLine("selectionsort \n\tPerform Selection Sort on the stored data")
@@ -54,7 +52,7 @@ let printHelp() =
 let printInfo() =
     printfn "Welcome to 4102/5102 F# program. Type help for list of commands"
     printfn "Author: Chuong Vu, Chatao Lauj, Thomas Nix, Stephen Meadley, Michael P"
-    printfn "The program will take in user commands from CLI to perform Insertion Sort, Quick Sort, or Bubble Sort."
+    printfn "The program will take in user commands from CLI to perform Insertion Sort, Selection sort, or Bubble Sort."
     //printfn "User will also have the option to read or write from/to text file or supported Database"
 
 // Function to print out the value given
@@ -76,6 +74,7 @@ let InsertionSort() =
             pValIndex <- pValIndex - 1
         inArray.[pValIndex+1] <- cVal
     printfn "\tSorted Data: %A\n\n" inArray
+    myData <- Array.toList(inArray)
 
 //Function to perform Selection Sort
 //data - the data to perform the sorting on. This should be a list of data
@@ -97,15 +96,8 @@ let SelectionSort() =
                 arr.[n] <- arr.[minIndex]
                 arr.[minIndex] <- tmp
             loop (n+1) arr
-    loop 0 arr
-
-//Function to perform Quick Sort
-//data - the data to perform the sorting on. This should be a list of data
-let QuickSort() =
-    printfn "Quick Sort with original Data:\t%A\n====================" myData
-    //logic to do Quick Sorting here
-    myData <- [18;16;14;12;10;8;6;4;2;0]
-    printfn "\tSorted Data: %A\n\n" myData
+    loop 0 
+    myData <- Array.toList(arr)
 
 //Function to perform Bubble Sort
 //data - the data to perform the sorting on. This should be a list of data
@@ -129,6 +121,7 @@ let BubbleSort() =
             arr 
             printfn "\n\tSorted Data: %A\n\n" arr
     loop arr
+    myData <- Array.toList(arr)
 
 let loadDataFromFile file =
     fname <- file
@@ -169,11 +162,8 @@ let saveDataToFile() =
     else
         printfn "Please setup a file name first"
 
-
 let saveDataToDb() =
     printfn "Code to save the sorted data to database"
-
-
 
 //main function
 let main() =
@@ -188,10 +178,6 @@ let main() =
         //HELP command
         if words.[0] = HELP then
             printHelp()
-        //Quick Sort
-        else if words.[0] = QUICK then
-            QuickSort()
-        
         //Bubble Sort
         else if words.[0] = BUBBLE then
             BubbleSort()
